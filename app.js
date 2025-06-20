@@ -1,5 +1,5 @@
-const fs = require('fs');
-const cron = require('node-cron');
+import fs from 'fs'
+import cron from 'node-cron'
 
 // Function to log time to file
 function logTime() {
